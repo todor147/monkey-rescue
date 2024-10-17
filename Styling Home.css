@@ -1,0 +1,146 @@
+body{
+    background-image: url(Amazon-rainforest-Ecuador.jpg);
+    background-position-y: 0.5cm;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(48, 250, 8);
+    background-position-y: bottom;
+}
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    background-size: 30000px 10000px
+}
+h1{
+    text-align: center;
+    font-size: 2cm;
+    color: white;
+    padding-top: 2cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+    list-style: none;
+}
+h3{
+    text-align: center;
+    font-size: 1.25cm;
+    color: white;
+    padding-top: 0cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p1{
+    text-align: center;
+    color: white;
+    font-size: 0.8cm;
+}
+.header{
+    height: auto;
+    width: auto;
+    padding: 0 8%;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 5cm;
+    position: relative;
+    right: 1cm;
+    top: 0cm;
+}
+.nav-links{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 0;
+    position: relative;
+}
+.nav-links li a ::after{
+    content: '';
+    background: #ff3d00;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.nav-links li a:hover::after{
+    width: 100%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer{
+    width: 100%;
+    background-color: #222;
+    padding: 10px 0px;
+    display: flex;
+}
+footer nav{
+display: flex;
+align-items: left;
+justify-content: space-between;
+}
+footer .logo{
+width: 5cm;
+position: relative;
+right: 1cm;
+top: 0cm;
+}
+footer .nav-links{
+padding: 28px 0;
+}
+footer .nav-links li{
+display: inline-block;
+margin: 0 20px;
+}
+footer .nav-links li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+padding: 5px 0;
+position: relative;
+}
+footer .nav-links li a ::after{
+content: '';
+background: #ff3d00;
+width: 0%;
+height: 2px;
+position: absolute;
+bottom: 0;
+left: 0;
+transition: width 0.5s;
+}
+footer .nav-links li a:hover::after{
+width: 100%;
+}
+.features{
+display: inline;
+align-items: center;
+color: #fff;
+}
+p{
+position: relative;
+color: rgb(255, 255, 255);
+text-align: center;
+margin-top: 9%;
+}
+.features{
+text-align: right;
+float: right;
+margin: auto;
+width: 30%
+}

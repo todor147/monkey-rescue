@@ -1,0 +1,249 @@
+.header{
+    height: auto;
+    width: auto;
+    padding: 0 8%;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo{
+    width: 5cm;
+    position: relative;
+    right: 1cm;
+    top: 0cm;
+}
+.header .nav-links{
+    padding: 28px 0;
+}
+.header .nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.header .nav-links li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 0;
+    position: relative;
+}
+.header .nav-links li a ::after{
+    content: '';
+    background: #ff3d00;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.header .nav-links li a:hover::after{
+    width: 100%;
+}
+.h1{
+   height: 10cm;
+   width: 100%; 
+   background-image: url(jungle\ dark.jpg);
+   background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-position: bottom;
+}
+h1{
+    position: absolute;
+  top: 3cm;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 7vw;
+text-shadow: 0em 0em 0.8em rgba(0,17,51,0.55);
+color: #fff;
+font-weight: 500;
+}
+p1{
+    position: absolute;
+  top: 10cm;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 8px;
+  line-height: 1.8em;
+  color: #fff;
+  text-align: center;
+}
+.asd1 h{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #333;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+p2{
+    text-align: left;
+    line-height: 2em;
+    box-sizing: border-box;
+    color: #666;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.textwrap1{  
+    float: left;
+    margin-right: 10%;
+    padding-top: 4%;
+    size: auto;
+    padding-left: 15%;
+}
+.asd1{
+    box-sizing: border-box;
+    display: block;
+    float: right;
+    line-height: 28px;
+    position: static;
+    z-index: auto;
+    width: 50%;
+    padding-right: 20%;
+    margin-bottom: 0.5cm;
+    justify-content: left;
+    padding-top: 6%;
+}
+footer{
+    width: 100%;
+    background-color: #222;
+    padding: 10px 0px;
+    display: flex;
+}
+footer nav{
+display: flex;
+align-items: left;
+justify-content: space-between;
+}
+footer .logo{
+width: 5cm;
+position: relative;
+right: 1cm;
+top: 0cm;
+}
+footer .nav-links{
+padding: 28px 0;
+}
+footer .nav-links li{
+display: inline-block;
+margin: 0 20px;
+}
+footer .nav-links li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+padding: 5px 0;
+position: relative;
+}
+footer .nav-links li a ::after{
+content: '';
+background: #ff3d00;
+width: 0%;
+height: 2px;
+position: absolute;
+bottom: 0;
+left: 0;
+transition: width 0.5s;
+}
+footer .nav-links li a:hover::after{
+width: 100%;
+}
+.features{
+display: inline;
+align-items: center;
+color: #fff;
+}
+p{
+position: relative;
+color: rgb(255, 255, 255);
+text-align: center;
+margin-top: 9%;
+}
+.features{
+text-align: right;
+float: right;
+margin: auto;
+width: 30%
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #333;
+    font-weight: 500;
+}
+.focus{
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    padding-left: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.para{
+    text-align: left;
+    vertical-align: top;
+    color: #333;
+    display: inline-block;
+    width: 15%;
+    margin: 0 7% 0 0;
+}
+.para h6{
+    color: #666;
+    display: block; 
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+}
+.focus p3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-weight: 500;
+    font-size: 14px;
+    width: 30%;
+    float: none;
+}
+.f{
+vertical-align: baseline;
+display: inline-block;
+padding-left: 10%;
+margin-top: 3%;
+}
+ul{list-style: none;}
+.asd{
+    box-sizing: border-box;
+    display: block;
+    float: right;
+    line-height: 28px;
+    position: static;
+    z-index: auto;
+    width: 50%;
+    padding-right: 10%;
+    margin-bottom: 0.5cm;
+    justify-content: left;
+    padding-top: 6%; 
+}
+.textwrap{  
+    float: left;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.solid{
+    width: 50%;
+    margin-right: 50%;
+    color: orangered;
+}
+.solid1{
+    color: orangered;
+}
+/*I am sorry for making you go through all of this, Michael :/ */
