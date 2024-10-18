@@ -4,6 +4,11 @@
     <link rel="stylesheet" href="help style.css" />
     <title>MonkeyRescue Help</title>
     <link rel="icon" type="image/x-icon" href="rescue.png" />
+    <script>
+      function showThankYouMessage() {
+        alert("Thank you for your donation!");
+      }
+    </script>
   </head>
   <body>
     <div class="header">
@@ -23,9 +28,9 @@
         <p>
           Monkey Rescue fights to save endangered animals. Your gift helps
           protect wildlife and the wild places they need to provide a healthy
-          plantet for us all.
+          planet for us all.
         </p>
-        <button>Donate</button>
+        <button id="donateButton" onclick="showThankYouMessage()">Donate</button>
       </div>
       <div class="video">
         <iframe
@@ -42,22 +47,24 @@
     <div class="invest">
       <h1>Investing in Nature</h1>
       <hr class="solid" />
-      <p1
-        >It is our time to invest into the wildlife of the planet. Every natural
+      <p1>
+        It is our time to invest into the wildlife of the planet. Every natural
         zone is home to resources that humans are completely dependent upon!
         From healthy food and spices to clean water, oxygen, medicines,
-        materials and more. We are codependent with nature.</p1
-      ><br /><br />
-      <p1
-        >The rainforest is a global treasure of biodiversity that also serves as
+        materials and more. We are codependent with nature.
+      </p1>
+      <br /><br />
+      <p1>
+        The rainforest is a global treasure of biodiversity that also serves as
         a rich oxygen producing region, carbon bank and enormous fresh water
         zone. What can be more important for sustaining the future of humanity
-        than this lush wonder?</p1
-      ><br /><br />
-      <p1
-        >Donate today to help support our cause to bring humans and wildlife
-        closer together!</p1
-      >
+        than this lush wonder?
+      </p1>
+      <br /><br />
+      <p1>
+        Donate today to help support our cause to bring humans and wildlife
+        closer together!
+      </p1>
     </div>
     <footer>
       <div class="wrapper">
@@ -72,7 +79,7 @@
           </ul>
         </nav>
       </div>
-      <p>All Rights reserved by &copy;MonkeyRescue 2022</p>
+      <p>All Rights reserved by ©MonkeyRescue 2022</p>
       <div class="features">
         <ul>
           <h2>Address</h2>
